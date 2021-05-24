@@ -1,0 +1,62 @@
+<div class='background-circle'>
+    <img src="assets/Images/circle.svg" alt="Bg-circle">
+</div>
+
+<div class='flex-box'>
+    <div class='flex-child-left'>
+        <div class='small-circle'>
+            <img src="assets/Images/blob-small.svg" alt="small Circle">
+        </div>
+        <div class='text'>
+            <img src="assets/Images/We make it Super Sim.svg" alt="actual text">
+        </div>
+        <div class='border'>
+            <img src="assets/Images/Line 3.svg" alt="border">
+        </div>
+        <div class='handshake-img'>
+            <img  src="assets/Images/collect_img-video.png" alt="handShake">
+        </div>
+        <ng-container [ngTemplateOutlet]="dot"></ng-container>
+
+    </div>
+    <div class='flex-child-right'>
+        <app-calculator></app-calculator>
+        <ng-container [ngTemplateOutlet]="dot"></ng-container>
+    </div>
+</div>
+
+<div class='feature'>
+    <div class='feature-flex'>
+        <div class='col-one'>
+            <div class='col-one-content' *ngFor='let featureData of columnOneFeatureData'>
+                <app-feature-box [data]='featureData'></app-feature-box>
+            </div>
+        </div>
+        <div class='col-two'>
+            <div class='col-two-content' *ngFor='let featureData of columnTwoFeatureData'>
+                <app-feature-box [data]='featureData'></app-feature-box>
+            </div>
+        </div>
+        <div class='text-col'>
+            <div class='text-col-heading'>
+                <img src="assets/Images/Boost your business.svg" alt="Boost Heading">
+            </div>
+            <div class='text-col-border'>
+                <img src='assets/Images/Line 3.svg' alt='Border'>
+            </div>
+            <div class='text-info-col-border'>
+                <img src='assets/Images/Get your hands on a.svg' alt='text'> 
+            </div>
+            <button class='get-account-btn'>
+                Get an Open Account
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<ng-template #dot>
+    <div class='dot'>
+        <img src="assets/Images/accounting_dots.svg" alt="Dot">
+    </div>
+</ng-template>

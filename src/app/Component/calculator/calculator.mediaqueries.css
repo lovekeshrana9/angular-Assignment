@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1365px) and (max-width: 1677px){
+    .calculator-flex > .card{
+        width: 382px;
+        height: 611px;
+    }
+    
+    .px-74{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .calculator-flex > .card > h4{
+        font-size: 20px;
+    }
+
+    .card .Income p:first-of-type, .card .Expense p:first-of-type,
+    .card .Tenure p,
+    .card .Income div label:first-of-type,
+    .card .Income div label:last-of-type,
+    .card .Existing-loan span, .card .Emi p{
+        font-size: 13px;
+    }
+
+    .card .Income p:last-of-type, .card .Expense p:last-of-type ,
+     .card .Tenure label, .card .Emi div ,
+    .calculator-flex > .info-container .loan-amount p:last-of-type,
+    .calculator-flex > .info-container .emi-amount p:last-of-type{
+        font-size: 20px;
+    }
+    
+    .card .Emi > div > input{
+        font-size: 19px;
+    }
+
+    .calculator-flex > .info-container .loan-amount p:first-of-type,
+    .calculator-flex > .info-container .emi-amount p:first-of-type{
+        font-size: 14px;
+    }
+
+    .calculator-flex > .info-container{
+        height: 402px;
+    }
+
+    .calculator-flex > .info-container .get-money{
+        font-size: 12px;
+    }
+
+    .card .Tenure span{
+        font-size: 27px;
+    }
+}

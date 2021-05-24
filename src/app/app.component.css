@@ -1,0 +1,44 @@
+section{
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.change-background ::ng-deep .home-header{
+    background: white;
+}
+
+.change-background ::ng-deep .home-header > .navbar .navbar-brand{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.change-background ::ng-deep .home-header > .navbar .navbar-brand img{
+    width: 100px;
+    height: 100px;
+}
+
+.change-background ::ng-deep .home-header > nav.navbar div:first-of-type{
+    margin-top: 0 !important;
+    transition: 1s;
+}
+
+.change-background ::ng-deep .home-header .mt-68{
+    margin-top: 32px !important;
+    transition: 1s;
+}
+
+.change-background ::ng-deep .home-header .navbar-button{
+    margin-top: 29px !important;
+    transition: 1s;
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1677px) {
+    .change-background ::ng-deep .home-header .mt-68{
+        margin-top: 38px !important;
+    }
+    
+    .change-background ::ng-deep .home-header .navbar-button{
+        margin-top: 31px !important;
+    }   
+}

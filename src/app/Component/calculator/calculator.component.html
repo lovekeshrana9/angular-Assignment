@@ -1,0 +1,56 @@
+<div class='calculator-flex'>
+    <div class='card'>
+        <h4>Eligibility Calculator</h4>
+        <div class='Income px-74'>
+            <p>Monthly Income</p>
+            <p>&#8377; {{selectedIncome | number }}</p>
+            <ngx-slider [(value)]="selectedIncome" [options]="options"></ngx-slider>
+            <!-- <p-slider [(ngModel)]='selectedIncome' [min]="minRange" [max]="maxRange"></p-slider> -->
+            <div>
+                <label>&#8377; {{minRange | number }}</label>
+                <label>&#8377; {{maxRange | number }}</label>
+            </div>
+            
+        </div>
+        <div class='Expense px-74'>
+            <p>Monthly Expense</p>
+            <p>&#8377; {{monthlyExpense | number }}</p>
+            <ngx-slider [(value)]="monthlyExpense" [options]="monthlyExpenseOptions"></ngx-slider>
+              
+        </div>
+        <div class='Tenure px-74'>
+            <p>Repayment Tenure</p>
+            <div>
+                <label>
+                    6 Months
+                </label>
+                <span class='mdi mdi-menu-down'>
+                </span>
+            </div>
+        </div>
+        <div class='Existing-loan px-74'>
+            <span>Do you have any existing loans?</span>
+            <div>
+                <app-toggle [isToggleOn]="existingLoan"
+                (toggle)="toggleExistingLoanButton($event)"></app-toggle>
+             </div> 
+        </div>
+        <div class='Emi px-74' *ngIf='existingLoan'>
+            <p>EMI of existing loan(optional)</p>
+            <div class = 'border-bottom'>
+                &#8377; <input type='text' placeholder = '5000'>
+            </div>
+        </div>
+    </div>
+    <div class='info-container'>
+        <div class='loan-amount'>
+            <p>Loan Amount</p>
+            <p>&#8377; 1,00,000</p>        
+        </div>
+        <div class='emi-amount'>
+            <p>Your EMI will be</p>
+            <p>&#8377; 15,000</p>
+        </div>
+        <button class='get-money'>GET MONEY</button>
+    </div>
+</div>

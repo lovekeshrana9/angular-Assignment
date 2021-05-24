@@ -1,0 +1,93 @@
+@media only screen and (min-width: 1679px) and (max-width: 1919px){
+    
+    .background-circle{
+        top: -267px;
+    }
+
+    .background-circle > img{
+        width: 1168px;
+    }
+    
+    .flex-box > .flex-child-left .handshake-img img{
+        width: 506px;
+        height: 345px;
+    }
+
+    .flex-box > .flex-child-left > .dot{
+        bottom: 87px;
+    }
+    
+    .feature{
+        background-position-y: bottom -72px;
+    }
+
+    .feature > .feature-flex .col-one-content ,
+    .feature > .feature-flex .col-two-content{
+        width: 272px;
+        height: 222px;
+    }
+    
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1677px){
+    .background-circle{
+        top: -231px;
+    }
+
+    .background-circle > img{
+        width: 987px;
+        height: 1033px;
+    }
+
+    .flex-box > .flex-child-left > .text > img{
+        width: 331px;
+    }
+
+    .flex-box > .flex-child-left > .small-circle > img{
+        height: 463px;
+        width: 526px;
+    }   
+
+    .flex-box .border img{
+        height: 7px; 
+        width: 195px;
+    }  
+
+    .flex-box > .flex-child-left .handshake-img img{
+        width: 406px;
+        height: 280px;
+    }
+        
+    .flex-box > .flex-child-left > .dot{
+        right: -111px;
+        bottom: 110px;
+    }
+
+    .feature > .feature-flex .col-one-content ,
+    .feature > .feature-flex .col-two-content{
+        width: 234px;
+        height: 222px;
+    }
+
+    .feature{
+        background-position-y: bottom -72px;
+    }    
+
+    .feature > .feature-flex > .text-col{
+        margin-left: 85px;
+    }
+
+    .feature > .feature-flex > .text-col > .get-account-btn{
+        font-size: 15px;
+    }
+
+    .feature > .feature-flex > .text-col > .text-col-heading img{
+        width: 400px;
+    }
+
+    .feature > .feature-flex > .text-col > .text-col-border img{
+        width: 94px;
+    }
+
+
+}

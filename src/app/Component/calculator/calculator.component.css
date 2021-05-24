@@ -1,0 +1,218 @@
+.calculator-flex{
+    display: flex;
+}
+
+.calculator-flex > .card{
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border:1px solid white;
+    border-radius: 20px;
+    height: 666px;
+    width: 474px;
+    z-index: 2;
+    margin-right:8px;
+}
+
+.calculator-flex > .card > h4{
+    text-align: center;
+    font-size: 24px;
+    margin: 0 14px;
+    background: #E8EBF3;
+    padding: 12px 0px 10px 0 ;
+    border-radius: 12px 12px 0 0 ;
+    position: relative;
+    top: -1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.card .Income, .card .Tenure{
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.card .Expense{
+    margin-top: 57px;
+}
+
+.card .Income div{
+    margin-top: 8px;
+}
+
+.card .Income div label:first-of-type{
+    float: left;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;    
+}
+
+.border-bottom{
+    border-bottom: 1px solid #999999;
+    padding-bottom: 14px;
+}
+
+.card .Income div label:last-of-type{
+    float: right;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+
+.card .Income p:first-of-type, .card .Expense p:first-of-type,
+.card .Tenure p,
+.card .Existing-loan span, .card .Emi p{
+    font-size: 15px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+}
+
+.card .Income p:last-of-type, .card .Expense p:last-of-type , .card .Tenure label{
+    font-size: 25px;
+    color: #222222;
+    margin-top: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.card .Tenure label{
+    display: inline-block;
+}
+
+.card .Tenure span{
+    float: right;
+    font-size: 31px;
+    position: relative;
+    top: 11px;
+}
+
+.card .Tenure div{
+    border-bottom: 1px solid #999999;
+    padding-bottom: 14px;
+}
+
+.card .Existing-loan{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+
+.card .Existing-loan div{
+    width:40px;
+    height:20px;
+    position:relative;
+}
+
+.card .Emi div{
+    margin-top: 13px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.card .Emi > div > input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 24px;
+} 
+
+.card .Emi > div > input::placeholder{
+    color: lightgray;
+}
+
+.px-74{
+    padding-left: 74px;
+    padding-right: 74px;
+}
+
+.calculator-flex > .info-container{
+    background-color: #663399;
+    height: 450px;
+    width: 209px;
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    margin-top:100px;
+    text-align: center;
+}
+
+.calculator-flex > .info-container .loan-amount{
+    margin-top:114px;
+    margin-bottom: 40px;
+}
+
+.calculator-flex > .info-container .loan-amount p:first-of-type,
+.calculator-flex > .info-container .emi-amount p:first-of-type{
+    font-size:18px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;     
+}
+
+.calculator-flex > .info-container .loan-amount p:last-of-type,
+.calculator-flex > .info-container .emi-amount p:last-of-type{
+    font-size:25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.calculator-flex > .info-container .get-money{
+    margin-top: 78px;
+    font-size: 14px;
+    color: #663399;
+    border: 2px solid #663399;
+    background: white;
+    padding :15px 37px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+}
+
+.calculator-flex > .info-container .get-money:hover{
+    background: #663399;
+    border: 2px solid white;
+    color: white;
+}
+
+:host::ng-deep .ngx-slider-limit.ngx-slider-floor {
+    display: none !important;
+}
+
+:host::ng-deep .ngx-slider-limit.ngx-slider-ceil{
+    display:none !important;
+}
+
+:host::ng-deep .ngx-slider-model-value{
+    display: none !important;
+}
+
+:host::ng-deep .ngx-slider-pointer{
+    width: 20px !important;
+    height: 20px !important;
+    background: white !important;
+    top: -8px !important;
+}
+
+:host::ng-deep .ngx-slider-pointer::after{
+    width: 10px !important;
+    height: 10px !important;
+    top: 5px !important;
+    left: 5px !important;
+    border-radius: 50% !important;
+    background: #663399 !important;
+
+}
+
+:host::ng-deep .ngx-slider-selection-bar{
+    visibility: visible !important;
+}
+
+:host::ng-deep .ngx-slider .ngx-slider-selection{
+    background: #663399 !important;
+}
+
+:host::ng-deep .ngx-slider{
+    margin:0 !important;
+}

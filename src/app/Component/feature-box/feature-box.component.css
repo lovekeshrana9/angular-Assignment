@@ -1,0 +1,21 @@
+div.img-container{
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-bottom: 11px;
+    font-size: 15px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: 1s;
+}
+
+p{
+    font-size: 15px;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: 1s;
+    
+}

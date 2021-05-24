@@ -1,0 +1,159 @@
+.background-circle{
+    position: absolute;
+    right: -7%;
+    top: -261px;
+}
+
+.background-circle > img{
+    width: 1198px;
+    height: 1161px;
+}
+
+.flex-box{
+    display: flex;  
+    margin-top: 63px;
+}
+
+.flex-box > .flex-child-left{
+    position: relative;
+}
+
+.flex-box > .flex-child-left > .small-circle{
+    position: absolute;
+    left: -134px;
+    top: -28px;
+}
+
+.flex-box > .flex-child-left > .small-circle > img{
+    height: 539px;
+    width: 558px;
+}
+
+
+
+.flex-box > .flex-child-left > .text{
+    width: 407px;
+    height: 98px;
+    margin-left: 189px;
+}
+
+.flex-box > .flex-child-left > .border{
+    margin-left: 167px;
+}
+
+.flex-box .border img{
+    height: 9px; 
+    width: 236px;
+}
+
+.flex-box > .flex-child-left .handshake-img{
+    margin-left: 137px;
+    margin-top: 82px;
+    position: relative;
+    z-index: 3;
+}
+
+.flex-box > .flex-child-left .handshake-img img{
+    width: 652px;
+    height: 365px;
+    
+}
+
+.flex-box > .flex-child-left > .dot{
+    position: absolute;
+    width: 430px;
+    height: 70px;
+    right: -105px;
+    bottom: 71px;
+}
+
+.flex-box > .flex-child-right{
+    margin-left: auto;
+    position: relative;
+    margin-right: 132px;
+}
+
+.flex-box > .flex-child-right > .dot{
+    position: absolute;
+    width: 430px;
+    height: 70px;
+    right: -87px;
+    bottom: -54px;
+}
+
+.feature{
+    background: url(/assets/Images/sol_wave_bg.svg);
+    margin-top: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom -93px;
+}
+
+.feature > .feature-flex{
+    display: flex;    
+    padding-left: 192px;
+}
+
+.feature > .feature-flex .col-one-content ,
+.feature > .feature-flex .col-two-content{
+    width: 390px;
+    height: 272px;
+    background: #F9F9F9;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top:34px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.feature > .feature-flex .col-one{
+    margin-right: 48px;
+}
+
+.feature > .feature-flex > .col-two{
+    margin-top: 140px;
+}
+
+.feature > .feature-flex > .text-col{
+    margin-left: 138px;
+    margin-top: 249px;
+}
+
+.feature > .feature-flex > .text-col > .text-col-border{
+    margin-top: 52px;
+    margin-bottom: 34px;
+}
+
+.feature > .feature-flex > .text-col > .get-account-btn:hover{
+    background: #663399;
+    color: white;
+}
+
+.feature > .feature-flex > .text-col > .get-account-btn{
+    border: 2px solid #663399;
+    color: #663399;
+    background: white;
+    border-radius: 30px;
+    margin-top: 81px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 18px 47px 17px 34px;
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;
+}
+
+.feature > .feature-flex .col-one-content:hover,
+.feature > .feature-flex .col-two-content:hover{
+    background: linear-gradient(90deg, #9F62C9 0%, #663399 100%);
+    opacity: 0.7;
+}
+
+.feature > .feature-flex .col-one-content:hover ::ng-deep h4,
+.feature > .feature-flex .col-one-content:hover ::ng-deep p,
+.feature > .feature-flex .col-two-content:hover ::ng-deep h4,
+.feature > .feature-flex .col-two-content:hover ::ng-deep p{
+    color: white;
+}
